@@ -24,9 +24,9 @@ npm run dev:full
 
 ## GitHub Pages 免费预览
 
-`.github/workflows/pages.yml` 已准备好自动构建。将本目录提交到 GitHub 仓库的 `main` 分支，在仓库 **Settings → Pages → Build and deployment** 中选择 **GitHub Actions**。之后每次推送 `main` 会重新发布静态预览。普通仓库的网址通常为 `https://用户名.github.io/仓库名/`；名为 `用户名.github.io` 的仓库使用根路径。
+已发布的静态演示网址是 <https://villy-wang.github.io/-competition-calendar/>，源码在 <https://github.com/villy-Wang/-competition-calendar>。仓库名确实以 `-` 开头。`.github/workflows/pages.yml` 会在每次推送 `main` 后重新构建并发布。仓库的 **Settings → Pages → Build and deployment → Source** 应保持为 **GitHub Actions**。
 
-GitHub Pages 只能运行静态网页。这里发布的是浏览器演示模式，不能承载 Node 后端、真实账号、跨设备文件同步或密钥保护的 AI。页面里的“演示登录”必须按演示理解。若要上线完整服务，需要另外部署后端及数据库，并配置 HTTPS、域名、备份和监控。项目已初始化为本地 Git 仓库，尚未发布到 GitHub。
+GitHub Pages 只能运行静态网页。这里发布的是浏览器演示模式，不能承载 Node 后端、真实账号、跨设备文件同步或密钥保护的 AI。页面里的“演示登录”必须按演示理解。若要上线完整服务，需要另外部署后端及数据库，并配置 HTTPS、域名、备份和监控。
 
 ## 使用与更新
 

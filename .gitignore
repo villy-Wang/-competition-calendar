@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env.local
+*.log
+runtime-data/
+.env.server
+*.tsbuildinfo
+.env
+.env.*.local

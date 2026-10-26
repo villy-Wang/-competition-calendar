@@ -3,7 +3,7 @@ import{FileText,Upload}from'lucide-react';
 import type{Competition,Attachment}from'../types';
 import{addDays,reminderDays}from'../lib/calendar';
 import{downloadFile}from'../services/files';
-import{apiBase}from'../services/api';
+
 
 type Props={
  year:number;setYear:Dispatch<SetStateAction<number>>;
@@ -28,12 +28,12 @@ export default function CalendarView({year,setYear,month,setMonth,date,setDate,m
   <div className="month-tabs">{Array.from({length:12},(_,i)=><button key={i} className={month===i?'active':''} onClick={()=>setMonth(i)}>{i+1}月</button>)}</div>
   <div className="calendar-layout"><div className="calendar panel"><div className="weekdays">{'一二三四五六日'.split('').map(x=><span key={x}>周{x}</span>)}</div><div className="days">
    {Array.from({length:firstDay},(_,i)=><span key={'blank'+i}/>)}
-   {Array.from({length:dayCount},(_,i)=>{const d=`${year}-${String(month+1).padStart(2,'0')}-${String(i+1).padStart(2,'0')}`;const due=mine.filter(x=>x.deadline===d);const remind=mine.filter(x=>reminderDays.some(n=>addDays(x.deadline,-n)===d));return <button key={d} className={`day ${date===d?'selected':''} ${due.length?'due':''}`} onClick={()=>setDate(d)} onDragOver={e=>e.preventDefault()} onDrop={(e:DragEvent)=>{e.preventDefault();if(e.dataTransfer.files.length)addFiles(e.dataTransfer.files,d,linkedCompetition(d))}}><span>{i+1}</span>{due.length>0&&<small className="day-event">{due[0].name}</small>}{remind.length>0&&<small className="day-remind">备赛提醒 {remind.length}</small>}{files.some(f=>f.date===d)&&<FileText size={13}/>}</button>})}
+   {Array.from({length:dayCount},(_,i)=>{const d=`${year}-${String(month+1).padStart(2,'0')}-${String(i+1).padStart(2,'0')}`;const due=mine.filter(x=>x.deadline===d);const remind=mine.filter(x=>!!x.deadline&&reminderDays.some(n=>addDays(x.deadline!,-n)===d));return <button key={d} className={`day ${date===d?'selected':''} ${due.length?'due':''}`} onClick={()=>setDate(d)} onDragOver={e=>e.preventDefault()} onDrop={(e:DragEvent)=>{e.preventDefault();if(e.dataTransfer.files.length)addFiles(e.dataTransfer.files,d,linkedCompetition(d))}}><span>{i+1}</span>{due.length>0&&<small className="day-event">{due[0].name}</small>}{remind.length>0&&<small className="day-remind">备赛提醒 {remind.length}</small>}{files.some(f=>f.date===d)&&<FileText size={13}/>}</button>})}
   </div></div><div className="panel day-detail"><div className="eyebrow">SELECTED DATE</div><h2>{date}</h2><h3>赛事与提醒</h3>
    {events.length?events.map(c=><div className="detail-item" key={c.id}><strong>{c.name}</strong><p>报名截止</p><button className="text-button" onClick={()=>openDetail(c)}>查看详情 →</button></div>):<p className="muted">当天没有赛事截止。</p>}
-   {mine.filter(x=>reminderDays.some(n=>addDays(x.deadline,-n)===date)).map(c=><div className="detail-item" key={c.id+'remind'}><strong>{c.name}</strong><p>备赛提醒</p></div>)}
+   {mine.filter(x=>!!x.deadline&&reminderDays.some(n=>addDays(x.deadline!,-n)===date)).map(c=><div className="detail-item" key={c.id+'remind'}><strong>{c.name}</strong><p>备赛提醒</p></div>)}
    <h3>关联文件</h3>{dateFiles.map(f=><div className="file-row" key={f.id}><FileText size={16}/><button onClick={()=>downloadFile(f)}>{f.name}</button><button className="remove" onClick={()=>removeFile(f.id)} aria-label={`删除 ${f.name}`}>×</button></div>)}
-   <label className="upload"><Upload size={17}/> 添加文件<input type="file" multiple onChange={e=>e.target.files&&addFiles(e.target.files,date,linkedCompetition(date))}/></label><p className="fine">{apiBase?'文件保存在已连接的服务端。':'文件仅保存在当前浏览器。'}单个文件上限 25 MB。</p>
+   <label className="upload"><Upload size={17}/> 添加文件<input type="file" multiple onChange={e=>e.target.files&&addFiles(e.target.files,date,linkedCompetition(date))}/></label><p className="fine">文件仅保存在当前浏览器。单个文件上限 25 MB。</p>
   </div></div>
  </>
 }

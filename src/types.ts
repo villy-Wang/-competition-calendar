@@ -1,3 +1,3 @@
-export type Competition={id:string;name:string;category:string[];majors:string[];schools:string[];education:string[];grades:number[];format:'个人'|'团队'|'均可';minTeam:number;maxTeam:number;work:string;eligibility:string;deadline:string;source:string;sourceUrl?:string;verified:boolean;description:string};
+export type Competition={id:string;name:string;category:string[];majors:string[];schools:string[];education:string[];grades:number[];format:'个人'|'团队'|'均可';minTeam:number;maxTeam:number;work:string;eligibility:string;deadline:string|null;deadlineNote?:string;source:string;sourceUrl?:string;verified:boolean;verifiedAt?:string;description:string};
 export type Profile={school:string;college:string;major:string;education:string;grade:number;interests:string[];teamSize:number;work:string;qualification:string};
 export type Attachment={id:string;name:string;type:string;size?:number;date:string;competitionId?:string;dataUrl?:string};

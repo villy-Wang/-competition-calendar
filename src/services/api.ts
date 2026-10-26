@@ -1,7 +1,7 @@
 import type {Competition,Profile,Attachment} from '../types';
 import{parseCompetitions}from'../lib/validate';
 export const apiBase=import.meta.env.VITE_API_BASE_URL as string|undefined;
-export async function fetchCompetitions():Promise<Competition[]>{const response=await fetch(apiBase?`${apiBase}/competitions`:`${import.meta.env.BASE_URL}competitions.json`,{cache:'no-cache'});if(!response.ok)throw Error('赛事数据暂不可用');return parseCompetitions(await response.text())}
+export async function fetchCompetitions():Promise<Competition[]>{const response=await fetch(`${import.meta.env.BASE_URL}competitions.json`,{cache:'no-cache'});if(!response.ok)throw Error('赛事数据暂不可用');return parseCompetitions(await response.text())}
 export type SessionState={user:{id:string;email:string;name:string;role:'user'|'admin'};profile:Profile|null;selected:string[];files:Attachment[]};
 async function request<T>(path:string,options:RequestInit={}):Promise<T>{if(!apiBase)throw Error('尚未配置后端');const response=await fetch(`${apiBase}${path}`,{credentials:'include',...options,headers:{'Content-Type':'application/json',...options.headers}});const data=await response.json();if(!response.ok)throw Error(data.error||'服务暂不可用');return data as T}
 export function getSession(){return request<SessionState>('/auth/me')}

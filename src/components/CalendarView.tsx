@@ -27,7 +27,7 @@ export default function CalendarView({year,setYear,month,setMonth,date,setDate,m
   <div className="section-head"><div><div className="eyebrow">YEARLY CALENDAR</div><h1>{year} 年度日历</h1><p>点击日期查看赛事和文件；可将文件拖到日期格。</p></div>
    <div className="year-control"><div className="font-control mobile-only" aria-label="字体大小"><button onClick={decreaseFont} aria-label="缩小字体">A−</button><button onClick={increaseFont} aria-label="放大字体">A+</button></div><button onClick={()=>setYear(v=>v-1)} aria-label="上一年">‹</button><strong>{year}</strong><button onClick={()=>setYear(v=>v+1)} aria-label="下一年">›</button></div>
   </div>
-  <div className="calendar-agenda panel"><strong>已选赛事安排（{mine.length}）</strong>{mine.length?<div className="agenda-items">{mine.map(c=><button className="agenda-item" key={c.id} onClick={()=>c.deadline?jump(c.deadline):openDetail(c)}><span>{c.deadline||'日期待确认'}</span><b>{c.name}</b><small>{c.deadline?'定位到日历':'查看赛事并填写本校日期'} →</small></button>)}</div>:<p>尚未加入赛事。加入后会在这里看到报名截止日；日期未定的赛事也会显示为待确认。</p>}</div>
+  <div className="calendar-agenda panel"><strong>已选赛事安排（{mine.length}）</strong>{mine.length?<div className="agenda-items">{mine.map(c=><div className="agenda-item" key={c.id}><button className="agenda-main" onClick={()=>c.deadline?jump(c.deadline):openDetail(c)}><span>{c.deadline||'日期待确认'}</span><b>{c.name}</b><small>{c.deadline?'定位到截止日':'查看赛事并填写本校日期'} →</small></button>{c.deadline&&<div className="agenda-reminders" aria-label={`${c.name}的备赛节点`}>{reminderDays.map(days=>{const reminderDate=addDays(c.deadline!,-days);return <button key={days} onClick={()=>jump(reminderDate)} aria-label={`${c.name}距截止 ${days} 天，${reminderDate}，定位到日历`}>提前{days}天 <span>{reminderDate.slice(5)}</span></button>})}</div>}</div>)}</div>:<p>尚未加入赛事。加入后会在这里看到报名截止日；日期未定的赛事也会显示为待确认。</p>}</div>
   <div className="month-tabs">{Array.from({length:12},(_,i)=><button key={i} className={month===i?'active':''} onClick={()=>setMonth(i)}>{i+1}月</button>)}</div>
   <p className="calendar-legend"><span aria-hidden="true"/> 黄色日期为备赛节点，格内数字表示距赛事截止还有多少天。</p>
   <div className="calendar-layout"><div className="calendar panel"><div className="weekdays">{'一二三四五六日'.split('').map(x=><span key={x}>周{x}</span>)}</div><div className="days">
@@ -43,3 +43,4 @@ export default function CalendarView({year,setYear,month,setMonth,date,setDate,m
   </div></div>
  </>
 }
+

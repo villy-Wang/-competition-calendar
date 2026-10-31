@@ -1,26 +1,273 @@
 [
   {
-    "id": "career-planning-2026-growth", "name": "第四届全国大学生职业规划大赛·成长赛道", "category": ["职业规划", "创新创业"], "majors": [], "schools": [], "education": ["本科"], "grades": [], "format": "个人", "minTeam": 1, "maxTeam": 1,
-    "work": "生涯发展报告及展示材料；具体格式见赛道方案和本校通知。", "eligibility": "普通高校本、专科非毕业年级在校生；本条的学历筛选仅覆盖本科生。往届全国总决赛原赛道金银奖选手不得再次报名。", "deadline": null, "deadlineNote": "各校自行确定报名截止，最晚不超过 2027-01-31；请立即查看本校通知。", "source": "教育部 2026 年赛事通知", "sourceUrl": "https://www.moe.gov.cn/srcsite/A15/s7063/202610/t20261010_1453481.html", "verified": true, "verifiedAt": "2026-10-26", "description": "面向非毕业年级学生，围绕职业目标与成长行动参赛；校赛、省赛和全国赛依次进行。"
+    "id": "career-planning-2026-growth",
+    "name": "第四届全国大学生职业规划大赛·成长赛道",
+    "category": [
+      "职业规划",
+      "创新创业"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [
+      "本科"
+    ],
+    "grades": [],
+    "format": "个人",
+    "minTeam": 1,
+    "maxTeam": 1,
+    "work": "生涯发展报告及展示材料；具体格式见赛道方案和本校通知。",
+    "eligibility": "普通高校本、专科非毕业年级在校生；本条的学历筛选仅覆盖本科生。往届全国总决赛原赛道金银奖选手不得再次报名。",
+    "deadline": null,
+    "deadlineNote": "各校自行确定报名截止，最晚不超过 2027-01-31；请立即查看本校通知。",
+    "source": "教育部 2026 年赛事通知",
+    "sourceUrl": "https://www.moe.gov.cn/srcsite/A15/s7063/202610/t20261010_1453481.html",
+    "verified": true,
+    "verifiedAt": "2026-10-26",
+    "description": "面向非毕业年级学生，围绕职业目标与成长行动参赛；校赛、省赛和全国赛依次进行。"
   },
   {
-    "id": "career-planning-2026-employment", "name": "第四届全国大学生职业规划大赛·就业赛道", "category": ["职业规划", "经管"], "majors": [], "schools": [], "education": ["本科", "研究生"], "grades": [], "format": "个人", "minTeam": 1, "maxTeam": 1,
-    "work": "求职展示材料；具体格式见赛道方案和本校通知。", "eligibility": "普通高校计划求职的本、专科高年级学生（不含已通过推免获得录取资格者）及研究生；往届全国总决赛原赛道金银奖选手不得再次报名。", "deadline": null, "deadlineNote": "各校自行确定报名截止，最晚不超过 2027-01-31；请立即查看本校通知。", "source": "教育部 2026 年赛事通知", "sourceUrl": "https://www.moe.gov.cn/srcsite/A15/s7063/202610/t20261010_1453481.html", "verified": true, "verifiedAt": "2026-10-26", "description": "考察求职实战能力及个人能力与目标职业的契合度。"
+    "id": "career-planning-2026-employment",
+    "name": "第四届全国大学生职业规划大赛·就业赛道",
+    "category": [
+      "职业规划",
+      "经管"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [
+      "本科",
+      "研究生"
+    ],
+    "grades": [],
+    "format": "个人",
+    "minTeam": 1,
+    "maxTeam": 1,
+    "work": "求职展示材料；具体格式见赛道方案和本校通知。",
+    "eligibility": "普通高校计划求职的本、专科高年级学生（不含已通过推免获得录取资格者）及研究生；往届全国总决赛原赛道金银奖选手不得再次报名。",
+    "deadline": null,
+    "deadlineNote": "各校自行确定报名截止，最晚不超过 2027-01-31；请立即查看本校通知。",
+    "source": "教育部 2026 年赛事通知",
+    "sourceUrl": "https://www.moe.gov.cn/srcsite/A15/s7063/202610/t20261010_1453481.html",
+    "verified": true,
+    "verifiedAt": "2026-10-26",
+    "description": "考察求职实战能力及个人能力与目标职业的契合度。"
   },
   {
-    "id": "lanqiao-18-individual", "name": "第十八届蓝桥杯全国软件和信息技术专业人才大赛·个人赛", "category": ["算法", "软件开发", "电子", "硬件"], "majors": [], "schools": [], "education": ["本科", "研究生"], "grades": [], "format": "个人", "minTeam": 1, "maxTeam": 1,
-    "work": "按所选科目现场完成程序设计或电子类题目；报名需学校组织并提交报名材料。", "eligibility": "全日制在校研究生、本科和高职高专学生；各科目组别不同，研究生只能报研究生组，学校可能提前收材料；报名费 300 元/人。", "deadline": "2026-12-18", "deadlineNote": "官网报名截至 14:00；学校内部截止可能更早。", "source": "蓝桥杯组委会个人赛页面", "sourceUrl": "https://dasai.lanqiao.cn/pages/v7/dasai/competition/individual_competition.html", "verified": true, "verifiedAt": "2026-10-26", "description": "软件与电子类个人赛，科目包括 C/C++、Java、Python、Web、单片机等；请先核对所报科目与组别。"
+    "id": "lanqiao-18-individual",
+    "name": "第十八届蓝桥杯全国软件和信息技术专业人才大赛·个人赛",
+    "category": [
+      "算法",
+      "软件开发",
+      "电子",
+      "硬件"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [
+      "本科",
+      "研究生"
+    ],
+    "grades": [],
+    "format": "个人",
+    "minTeam": 1,
+    "maxTeam": 1,
+    "work": "按所选科目现场完成程序设计或电子类题目；报名需学校组织并提交报名材料。",
+    "eligibility": "全日制在校研究生、本科和高职高专学生；各科目组别不同，研究生只能报研究生组，学校可能提前收材料；报名费 300 元/人。",
+    "deadline": "2026-12-18",
+    "deadlineNote": "官网报名截至 14:00；学校内部截止可能更早。",
+    "source": "蓝桥杯组委会个人赛页面",
+    "sourceUrl": "https://dasai.lanqiao.cn/pages/v7/dasai/competition/individual_competition.html",
+    "verified": true,
+    "verifiedAt": "2026-10-26",
+    "description": "软件与电子类个人赛，科目包括 C/C++、Java、Python、Web、单片机等；请先核对所报科目与组别。"
   },
   {
-    "id": "swbmcm-2026-autumn", "name": "2026 年第十二届数维杯全国大学生数学建模挑战赛·秋季赛", "category": ["数学", "数据分析", "人工智能"], "majors": [], "schools": [], "education": ["本科", "研究生"], "grades": [], "format": "均可", "minTeam": 1, "maxTeam": 3,
-    "work": "从赛题中选一题，提交符合规范的英文数学建模 PDF 论文。", "eligibility": "全国普通高校全日制在校生，含专科、本科、研究生组；可跨校组队，每队 1–3 人，不可重复组队；报名费 200 元/队。", "deadline": "2026-11-20", "deadlineNote": "报名截至 06:00；比赛 11 月 20–24 日，论文提交截至 11 月 24 日 10:00。", "source": "数维杯官网报名通知", "sourceUrl": "https://www.nmmcm.org.cn/News/198.html", "verified": true, "verifiedAt": "2026-10-26", "description": "围绕数学建模、交叉学科建模和仿真问题，完成建模求解及英文论文。"
+    "id": "swbmcm-2026-autumn",
+    "name": "2026 年第十二届数维杯全国大学生数学建模挑战赛·秋季赛",
+    "category": [
+      "数学",
+      "数据分析",
+      "人工智能"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [
+      "本科",
+      "研究生"
+    ],
+    "grades": [],
+    "format": "均可",
+    "minTeam": 1,
+    "maxTeam": 3,
+    "work": "从赛题中选一题，提交符合规范的英文数学建模 PDF 论文。",
+    "eligibility": "全国普通高校全日制在校生，含专科、本科、研究生组；可跨校组队，每队 1–3 人，不可重复组队；报名费 200 元/队。",
+    "deadline": "2026-11-20",
+    "deadlineNote": "报名截至 06:00；比赛 11 月 20–24 日，论文提交截至 11 月 24 日 10:00。",
+    "source": "数维杯官网报名通知",
+    "sourceUrl": "https://www.nmmcm.org.cn/News/198.html",
+    "verified": true,
+    "verifiedAt": "2026-10-26",
+    "description": "围绕数学建模、交叉学科建模和仿真问题，完成建模求解及英文论文。"
   },
   {
-    "id": "cmit-2026-opc", "name": "2026 全国大学生数字媒体科技作品及创意竞赛·OPC 数字新消费专项赛", "category": ["人工智能", "设计", "创新创业", "商业"], "majors": [], "schools": [], "education": ["本科", "研究生"], "grades": [], "format": "均可", "minTeam": 1, "maxTeam": 5,
-    "work": "可运行、使用或演示的实际成果，OPC 创新实践说明和评审视频；仅概念 PPT、计划书或静态效果图不符合要求。", "eligibility": "面向符合本届竞赛统一资格的高校学生；每队 1–5 人，跨校组队须明确第一申报单位。", "deadline": "2026-11-06", "deadlineNote": "报名及作品提交同日 23:59:59 截止（北京时间）。", "source": "全国大学生数媒竞赛组委会专项赛通知", "sourceUrl": "https://www.cmit.cn/uploadfile/2026/1012/45828.html", "verified": true, "verifiedAt": "2026-10-26", "description": "面向智能终端、机器人、智慧生活及数字消费等真实场景的创新成果。"
+    "id": "cmit-2026-opc",
+    "name": "2026 全国大学生数字媒体科技作品及创意竞赛·OPC 数字新消费专项赛",
+    "category": [
+      "人工智能",
+      "设计",
+      "创新创业",
+      "商业"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [
+      "本科",
+      "研究生"
+    ],
+    "grades": [],
+    "format": "均可",
+    "minTeam": 1,
+    "maxTeam": 5,
+    "work": "可运行、使用或演示的实际成果，OPC 创新实践说明和评审视频；仅概念 PPT、计划书或静态效果图不符合要求。",
+    "eligibility": "面向符合本届竞赛统一资格的高校学生；每队 1–5 人，跨校组队须明确第一申报单位。",
+    "deadline": "2026-11-06",
+    "deadlineNote": "报名及作品提交同日 23:59:59 截止（北京时间）。",
+    "source": "全国大学生数媒竞赛组委会专项赛通知",
+    "sourceUrl": "https://www.cmit.cn/uploadfile/2026/1012/45828.html",
+    "verified": true,
+    "verifiedAt": "2026-10-26",
+    "description": "面向智能终端、机器人、智慧生活及数字消费等真实场景的创新成果。"
   },
   {
-    "id": "cmit-2026-international", "name": "2026 全国大学生数字媒体科技作品及创意竞赛·国际专项赛", "category": ["设计", "艺术", "人工智能"], "majors": [], "schools": [], "education": ["本科", "研究生"], "grades": [], "format": "均可", "minTeam": 1, "maxTeam": 5,
-    "work": "数字文化、跨文化传播等方向的数字媒体作品；材料和语言规范以专项赛指南为准。", "eligibility": "仅全日制本科或研究生；中国内地高校学生必须与符合条件的国际学生联合组队，负责人为内地中国籍学生时国际成员比例至少 50%。", "deadline": "2026-11-06", "deadlineNote": "报名及作品提交同日 23:59:59 截止（北京时间）。", "source": "全国大学生数媒竞赛组委会国际专项赛通知", "sourceUrl": "https://www.cmit.cn/uploadfile/2026/1012/45827.html", "verified": true, "verifiedAt": "2026-10-26", "description": "跨文化协作的数字媒体创作；中国内地高校学生需满足国际联合组队条件。"
+    "id": "cmit-2026-international",
+    "name": "2026 全国大学生数字媒体科技作品及创意竞赛·国际专项赛",
+    "category": [
+      "设计",
+      "艺术",
+      "人工智能"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [
+      "本科",
+      "研究生"
+    ],
+    "grades": [],
+    "format": "均可",
+    "minTeam": 1,
+    "maxTeam": 5,
+    "work": "数字文化、跨文化传播等方向的数字媒体作品；材料和语言规范以专项赛指南为准。",
+    "eligibility": "仅全日制本科或研究生；中国内地高校学生必须与符合条件的国际学生联合组队，负责人为内地中国籍学生时国际成员比例至少 50%。",
+    "deadline": "2026-11-06",
+    "deadlineNote": "报名及作品提交同日 23:59:59 截止（北京时间）。",
+    "source": "全国大学生数媒竞赛组委会国际专项赛通知",
+    "sourceUrl": "https://www.cmit.cn/uploadfile/2026/1012/45827.html",
+    "verified": true,
+    "verifiedAt": "2026-10-26",
+    "description": "跨文化协作的数字媒体创作；中国内地高校学生需满足国际联合组队条件。"
+  },
+  {
+    "id": "comap-mcm-2027",
+    "name": "2027 美国大学生数学建模竞赛 MCM",
+    "category": [
+      "数学",
+      "数据分析"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [
+      "本科"
+    ],
+    "grades": [],
+    "format": "团队",
+    "minTeam": 1,
+    "maxTeam": 3,
+    "work": "从 MCM A、B、C 题中选择一题，提交英文 PDF 论文；总页数不超过 25 页。",
+    "eligibility": "同队 1–3 名本科或更低学段学生，须来自同一学校；需要本校指导老师或符合规则的顾问完成队伍注册。报名费及 AI 工具使用规则请见当届官网。",
+    "deadline": "2027-01-29",
+    "deadlineNote": "COMAP 官网报名截止：美国东部标准时间 2027-01-28 15:00，即北京时间 2027-01-29 04:00。学校或顾问可能提前收集队伍信息。",
+    "source": "COMAP 2027 MCM/ICM 官方规则",
+    "sourceUrl": "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php",
+    "verified": true,
+    "verifiedAt": "2026-10-31",
+    "description": "以团队形式解决数学建模实际问题；MCM 选择 A、B、C 类题。"
+  },
+  {
+    "id": "comap-icm-2027",
+    "name": "2027 美国大学生跨学科建模竞赛 ICM",
+    "category": [
+      "数学",
+      "数据分析",
+      "人工智能"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [
+      "本科"
+    ],
+    "grades": [],
+    "format": "团队",
+    "minTeam": 1,
+    "maxTeam": 3,
+    "work": "从 ICM D、E、F 题中选择一题，提交英文 PDF 论文；总页数不超过 25 页。",
+    "eligibility": "同队 1–3 名本科或更低学段学生，须来自同一学校；通过 COMAP MCM/ICM 同一系统由顾问注册。具体队伍及 AI 工具规则以当届官网为准。",
+    "deadline": "2027-01-29",
+    "deadlineNote": "COMAP 官网报名截止：美国东部标准时间 2027-01-28 15:00，即北京时间 2027-01-29 04:00。请留意学校内部期限。",
+    "source": "COMAP 2027 MCM/ICM 官方规则",
+    "sourceUrl": "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php",
+    "verified": true,
+    "verifiedAt": "2026-10-31",
+    "description": "跨学科建模赛，使用 D、E、F 类赛题；与 MCM 共用报名体系。"
+  },
+  {
+    "id": "lanqiao-18-visual-art",
+    "name": "第十八届蓝桥杯视觉艺术设计赛",
+    "category": [
+      "设计",
+      "艺术"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [],
+    "grades": [],
+    "format": "团队",
+    "minTeam": 1,
+    "maxTeam": 99,
+    "work": "提交原创设计作品；具体赛道的格式、版权及 AI 内容要求须核对正式赛规。",
+    "eligibility": "官方报名页确认采用团队赛及原创作品要求；学历、组队人数、跨校限制和各赛道条件请核对正式赛规。页面中的人数上限 99 仅表示此处尚未确认，不能当作允许人数。",
+    "deadline": null,
+    "deadlineNote": "官网报名页未给出可核验的统一截止日；请按所选赛道和本校通知核对。",
+    "source": "蓝桥杯视觉艺术设计赛官方规则",
+    "sourceUrl": "https://dasai.lanqiao.cn/pages/v7/dasai/competition/competition_art_dyteam_info.html?c=6&f=6&i=6008&m=1860",
+    "verified": true,
+    "verifiedAt": "2026-10-31",
+    "description": "面向视觉艺术与设计作品的团队赛；不同命题和赛道有独立要求。"
+  },
+  {
+    "id": "milan-design-2027",
+    "name": "2027 第十一届米兰设计周中国高校设计学科师生优秀作品展",
+    "category": [
+      "设计",
+      "艺术"
+    ],
+    "majors": [],
+    "schools": [],
+    "education": [
+      "本科",
+      "研究生"
+    ],
+    "grades": [],
+    "format": "均可",
+    "minTeam": 1,
+    "maxTeam": 99,
+    "work": "按具体赛场或命题要求提交原创设计作品；作品格式与人数限制须在所选赛道页面核对。",
+    "eligibility": "辽宁工业大学校赛通知允许单人创建队伍，通常每队不超过 3 人，但视频类动态作品作者可达 5 人；其他学校和赛场规则请另行核对。页面中的人数上限 99 仅表示不同赛道规则尚未统一，不能当作允许人数。",
+    "deadline": null,
+    "deadlineNote": "2027 届赛事官网已发布启动通知；不同赛场及学校期限不同，请在官网与本校通知核对。",
+    "source": "辽宁工业大学 2027 届校赛通知及赛事官网",
+    "sourceUrl": "https://cxcy.lnut.edu.cn/info/14428/186225.htm",
+    "verified": true,
+    "verifiedAt": "2026-10-31",
+    "description": "高校设计学科作品征集与展示活动，包含多个命题和专项赛场。"
   }
 ]

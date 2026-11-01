@@ -1,0 +1,291 @@
+{
+  "source": "https://jwc.kmu.edu.cn/info/1020/2683.htm",
+  "published": "2025-12-03",
+  "note": "高校教务处的赛事入口目录，仅作查找参考；非当前届次报名时间和资格证明。",
+  "entries": {
+    "1": {
+      "name": "中国国际大学生创新大赛",
+      "url": "https://cy.ncss.cn/"
+    },
+    "2": {
+      "name": "“挑战杯”全国大学生课外学术科技作品竞赛",
+      "url": "http://www.tiaozhanbei.net/"
+    },
+    "3": {
+      "name": "“挑战杯”中国大学生创业计划大赛",
+      "url": "http://www.tiaozhanbei.net/"
+    },
+    "4": {
+      "name": "ACM-ICPC国际大学生程序设计竞赛",
+      "url": "https://icpc.global/"
+    },
+    "5": {
+      "name": "全国大学生数学建模竞赛",
+      "url": "http://www.mcm.edu.cn/"
+    },
+    "6": {
+      "name": "全国大学生电子设计竞赛",
+      "url": "http://www.nuedcchina.com/"
+    },
+    "8": {
+      "name": "全国大学生机械创新设计大赛",
+      "url": "http://umic.ckcest.cn/"
+    },
+    "9": {
+      "name": "全国大学生结构设计竞赛",
+      "url": "http://www.structurecontest.com/"
+    },
+    "10": {
+      "name": "全国大学生广告艺术大赛",
+      "url": "https://www.sun-ada.net/"
+    },
+    "12": {
+      "name": "全国大学生电子商务“创新、创意及创业”挑战赛",
+      "url": "http://www.3chuang.net/"
+    },
+    "13": {
+      "name": "中国大学生工程实践与创新能力大赛",
+      "url": "http://www.gcxl.edu.cn/new/index.html"
+    },
+    "14": {
+      "name": "全国大学生物流设计大赛",
+      "url": "http://www.clpp.org.cn/"
+    },
+    "15": {
+      "name": "“外研社·国才杯”“理解当代中国”全国大学生外语能力大赛",
+      "url": "http://uchallenge.unipus.cn/"
+    },
+    "16": {
+      "name": "两岸新锐设计竞赛·华灿奖",
+      "url": "http://www.huacanjiang.com/home"
+    },
+    "17": {
+      "name": "全国大学生创新创业训练计划年会展示",
+      "url": "http://gjcxcy.bjtu.edu.cn/Index.aspx"
+    },
+    "18": {
+      "name": "全国大学生化工设计竞赛",
+      "url": "http://iche.zju.edu.cn/"
+    },
+    "19": {
+      "name": "全国大学生机器人大赛",
+      "url": "https://www.cnrobocon.net/"
+    },
+    "20": {
+      "name": "全国大学生市场调查与分析大赛",
+      "url": "http://www.china-cssc.org/list-56-1.html"
+    },
+    "21": {
+      "name": "全国大学生先进成图技术与产品信息建模创新大赛",
+      "url": "http://www.chengtudasai.com/"
+    },
+    "22": {
+      "name": "全国三维数字化创新设计大赛",
+      "url": "https://3dds.3ddl.net/"
+    },
+    "23": {
+      "name": "“西门子杯”中国智能制造挑战赛",
+      "url": "http://www.siemenscup-cimc.org.cn/"
+    },
+    "24": {
+      "name": "中国大学生服务外包创新创业大赛",
+      "url": "http://www.fwwb.org.cn/"
+    },
+    "25": {
+      "name": "中国大学生计算机设计大赛",
+      "url": "http://jsjds.blcu.edu.cn/"
+    },
+    "26": {
+      "name": "中国高校计算机大赛",
+      "url": "http://www.c4best.cn/"
+    },
+    "27": {
+      "name": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "url": "http://dasai.lanqiao.cn/"
+    },
+    "28": {
+      "name": "米兰设计周--中国高校设计学科师生优秀作品展",
+      "url": "http://www.dandad.cn/"
+    },
+    "29": {
+      "name": "全国大学生地质技能竞赛",
+      "url": "https://yuanxi.cugb.edu.cn/competition/"
+    },
+    "30": {
+      "name": "全国大学生光电设计竞赛",
+      "url": "http://gd.p.moocollege.com/"
+    },
+    "31": {
+      "name": "全国大学生集成电路创新创业大赛",
+      "url": "http://univ.ciciec.com/"
+    },
+    "32": {
+      "name": "全国大学生金相技能大赛",
+      "url": "http://www.jxds.tech/"
+    },
+    "33": {
+      "name": "全国大学生信息安全竞赛",
+      "url": "http://www.ciscn.cn/"
+    },
+    "34": {
+      "name": "未来设计师·全国高校数字艺术设计大赛",
+      "url": "https://www.ncda.org.cn/"
+    },
+    "35": {
+      "name": "全国周培源大学生力学竞赛",
+      "url": "http://zpy.cstam.org.cn/index.aspx"
+    },
+    "36": {
+      "name": "中国大学生机械工程创新创意大赛",
+      "url": "http://www.gczbds.org"
+    },
+    "37": {
+      "name": "中国机器人大赛暨RoboCup机器人世界杯中国赛",
+      "url": "http://crc.drct-caa.org.cn/"
+    },
+    "38": {
+      "name": "“中国软件杯”大学生软件设计大赛",
+      "url": "http://www.cnsoftbei.com/"
+    },
+    "39": {
+      "name": "中美青年创客大赛",
+      "url": "https://chinaus-maker.cscse.edu.cn/"
+    },
+    "40": {
+      "name": "睿抗机器人开发者大赛(RAICOM)",
+      "url": "https://www.robocom.com.cn/"
+    },
+    "41": {
+      "name": "“大唐杯”全国大学生新一代信息通信技术大赛",
+      "url": "https://dtcup.dtxiaotangren.com"
+    },
+    "42": {
+      "name": "华为ICT大赛",
+      "url": "https://e.huawei.com/cn/talent/ict-academy/#/ict-contest?compId=85131973"
+    },
+    "43": {
+      "name": "全国大学生嵌入式芯片与系统设计竞赛",
+      "url": "http://www.socchina.net/"
+    },
+    "44": {
+      "name": "全国大学生生命科学竞赛(CULSC)",
+      "url": "https://www.culsc.cn/#/"
+    },
+    "45": {
+      "name": "全国大学生物理实验竞赛",
+      "url": "http://wlsycx.moocollege.com/"
+    },
+    "46": {
+      "name": "国际高校BIM毕业设计创新大赛",
+      "url": "http://gxbsxs.glodonedu.com/"
+    },
+    "47": {
+      "name": "全国高校商业精英挑战赛",
+      "url": "http://cubec.org.cn/"
+    },
+    "48": {
+      "name": "“学创杯”全国大学生创业综合模拟大赛",
+      "url": "http://www.bster.cn/cyds/index"
+    },
+    "49": {
+      "name": "中国高校智能机器人创意大赛",
+      "url": "http://www.robotcontest.cn/"
+    },
+    "50": {
+      "name": "中国好创意暨全国数字艺术设计大赛",
+      "url": "https://www.cdec.org.cn/"
+    },
+    "52": {
+      "name": "全国大学生节能减排社会实践与科技竞赛",
+      "url": "http://www.jienengjianpai.org/"
+    },
+    "53": {
+      "name": "“21世纪杯”全国英语演讲比赛",
+      "url": "https://contest.i21st.cn/"
+    },
+    "54": {
+      "name": "iCAN大学生创新创业大赛",
+      "url": "http://www.g-ican.com/home/index"
+    },
+    "56": {
+      "name": "中华经典诵写讲大赛-①讲解大赛、②书写大赛、③诵读大赛、④篆刻大赛",
+      "url": "https://jdsxj.eduyun.cn/"
+    },
+    "57": {
+      "name": "“外教社杯”全国高校学生跨文化能力大赛",
+      "url": "https://ict.sflep.com/index.php?m=content&c=index&a=lists&catid=15"
+    },
+    "58": {
+      "name": "百度之星程序设计大赛",
+      "url": "https://star.baidu.com/#/"
+    },
+    "59": {
+      "name": "全国大学生工业设计大赛",
+      "url": "https://www.cuidc.net/#/"
+    },
+    "62": {
+      "name": "全国大学生化学实验创新设计大赛",
+      "url": "https://cid.nju.edu.cn/"
+    },
+    "63": {
+      "name": "全国大学生计算机系统统能力大赛",
+      "url": "https://compiler.educg.net/#/"
+    },
+    "64": {
+      "name": "全国大学生花园设计建造竞赛",
+      "url": "http://www.lalavision.com/hysjjzjs"
+    },
+    "68": {
+      "name": "全国大学生统计建模大赛",
+      "url": "http://tjjmds.ai-learning.net"
+    },
+    "70": {
+      "name": "全国大学生基础医学创新研究暨实验设计论坛(大赛)",
+      "url": "http://www.jcyxds.com/"
+    },
+    "71": {
+      "name": "全国大学生数字媒体科技作品及创意竞赛",
+      "url": "http://mit.caai.cn/"
+    },
+    "73": {
+      "name": "全国企业模拟竞赛大赛",
+      "url": "http://www.ibizsim.cn/"
+    },
+    "75": {
+      "name": "全国数字建筑创新应用大赛",
+      "url": "http://bisai.ccen.com.cn"
+    },
+    "77": {
+      "name": "国际大学生智能农业装备创新大赛",
+      "url": "http://uiaec.ujs.edu.cn"
+    },
+    "78": {
+      "name": "“科云杯”全国大学生财会职业能力大赛",
+      "url": "http://match.xmkeyun.com.cn/"
+    },
+    "79": {
+      "name": "世界职业院校技能大赛",
+      "url": "https://www.vcsc.org.cn/"
+    },
+    "80": {
+      "name": "全国大学生机器人大赛-RoboTac",
+      "url": "http://www.robotac.cn"
+    },
+    "81": {
+      "name": "世界技能大赛",
+      "url": "https://worldskills.org/"
+    },
+    "82": {
+      "name": "世界技能大赛中国选拔赛",
+      "url": "http://worldskillschina.mohrss.gov.cn/"
+    },
+    "83": {
+      "name": "一带一路暨金砖国家技能发展与技术创新大赛",
+      "url": "http://www.brskills.com/#/index"
+    },
+    "84": {
+      "name": "码蹄杯全国职业院校程序设计大赛",
+      "url": "https://matiji.net/matibei"
+    }
+  }
+}
